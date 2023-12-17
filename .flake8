@@ -1,1 +1,4 @@
-
+[pycodestyle]
+count = False
+max-line-length = 40
+statistics = True
