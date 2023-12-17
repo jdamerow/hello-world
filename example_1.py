@@ -5,7 +5,7 @@ highs = []
 
 for y in input:
   if y < 97:
-        losValue.append(x)
+        los.append(x)
   elif x > 99:
         highs.append(x)
   else:
