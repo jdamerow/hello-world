@@ -14,18 +14,19 @@ def count_average(average, counter):
 def calculate_percentage(count, total,x):
     return count/total*100
 
-average_counter = Counter({'low': 0, 'high': 0})
-
-for temperatures in measurements:
-    average = get_average(temperatures) 
-    print("Average is " + str(average))
+def example_2_fixed():
+    average_counter = Counter({'low': 0, 'high': 0})
     
-    if average > LOW_TEMP and average < HIGH_TEMP: 
-        continue
+    for temperatures in measurements:
+        average = get_average(temperatures) 
+        print("Average is " + str(average))
         
-    count_average(average, average_counter)
+        if average > LOW_TEMP and average < HIGH_TEMP: 
+            continue
+            
+        count_average(average, average_counter)
+        
+    measurement_count = len(measurements)
     
-measurement_count = len(measurements)
-
-print("Low temperatures in {0}%.".format(calculate_percentage(average_counter['low'], measurement_count)))
-print("High temperatures in {0}%.".format(calculate_percentage(average_counter['high'], measurement_count)))
+    print("Low temperatures in {0}%.".format(calculate_percentage(average_counter['low'], measurement_count)))
+    print("High temperatures in {0}%.".format(calculate_percentage(average_counter['high'], measurement_count)))
