@@ -1,5 +1,4 @@
 normal_low = 97 # normal human body temperature lower end
-
 temperature_measurements_1 = [98, 99, 97, 95.2, 100, 101.1]
 
 normal_temperature_1= [] 
