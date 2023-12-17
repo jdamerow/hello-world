@@ -3,7 +3,7 @@ def my_func():
   losValue = []
   norms = []
   highs = []
-  
+
   for y in input:
     if y < 97:
           los.append(x)
@@ -11,5 +11,5 @@ def my_func():
           highs.append(x)
     else:
           norms.append(x)
-  
+
   print(norms)
