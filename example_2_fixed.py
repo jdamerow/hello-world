@@ -11,7 +11,7 @@ def count_average(average, counter):
     if average HIGH_TEMP:
         counter['high'] += 1
         
-def calculate_percentage(count, total):
+def calculate_percentage(count, total,x):
     return count/total*100
 
 average_counter = Counter({'low': 0, 'high': 0})
