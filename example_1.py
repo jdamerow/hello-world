@@ -3,8 +3,8 @@ losValue = []
 norms = []
 highs = []
 
-for x in input:
-  if x < 97:
+for y in input:
+  if y < 97:
         losValue.append(x)
   elif x > 99:
         highs.append(x)
