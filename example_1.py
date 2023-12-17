@@ -4,9 +4,9 @@ norms = []
 highs = []
 
 for x in input:
-    if x < 97:
+  if x < 97:
         losValue.append(x)
-    elif x > 99:
+  elif x > 99:
         highs.append(x)
-    else:
+  else:
         norms.append(x)
