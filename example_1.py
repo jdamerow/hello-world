@@ -10,3 +10,5 @@ for x in input:
         highs.append(x)
   else:
         norms.append(x)
+
+print(norms)
