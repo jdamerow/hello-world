@@ -1,9 +1,7 @@
-# Hello World!
+# This is the heading of my document
+  
+This is a great way to publish documentation, if:
 
-This is my awesome repository, because:
-
-- It's mine!
-- I can share it.
-- It's beautiful.
-
-And I can also share the repository!
+- the documentation isn't too long.
+- I feel comfortable writing markdown.
+- I don't need it to be very fancy.  
